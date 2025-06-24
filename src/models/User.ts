@@ -2,7 +2,7 @@ import BaseModel from "./BaseMode";
 
 export class User {
   constructor(
-    private readonly id: number,
+    private  id: number,
     public name: string,
     public email: string
   ) {}
